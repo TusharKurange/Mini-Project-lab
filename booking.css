@@ -1,0 +1,129 @@
+/* booking.css */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #f3f4f6;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d6efd;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navdiv .logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navdiv ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navdiv ul li {
+  margin-left: 20px;
+}
+
+.navdiv ul li a, .navdiv button a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  transition: color 0.3s ease;
+}
+
+.navdiv ul li a:hover, .navdiv button a:hover {
+  color: #f3f4f6;
+  background-color: #0056b3;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #0d6efd;
+  color: #ffffff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Confirmation Message */
+.confirmation-message {
+  max-width: 600px;
+  background: #ffffff;
+  margin: 100px auto 50px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.confirmation-message h1 {
+  font-size: 2rem;
+  color: #0d6efd;
+  margin-bottom: 20px;
+}
+
+.confirmation-message p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.confirmation-message strong {
+  color: #0d6efd;
+}
+
+.confirmation-message .home-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.confirmation-message .home-button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #0d6efd;
+  color: #ffffff;
+  padding: 20px 0;
+  font-size: 0.9rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+}
